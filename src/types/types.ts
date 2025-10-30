@@ -9,3 +9,5 @@ export interface GameObjective {
   maxHealth: number;
   image: string;
 }
+
+export type Rank = 'silver' | 'diamond' | 'challenger';
